@@ -1,3 +1,0 @@
-# Weather-website
-# Stopwatch-
-# Stopwatch-
