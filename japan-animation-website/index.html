@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Website</title>
+    <!-- Font Awesome CDN-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="website.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav-bar">
+        <div class="logo">
+          <a href=""><img src="" /></a>
+        </div>
+        <div>
+          <ul>
+            <li class="js-dropdown">
+              <a href="">บริการ</a><i class="fa-solid fa-caret-down"></i>
+              <ul class="dropdown">
+                <li>Service 1</li>
+                <li>Service 2</li>
+                <li>Service 3</li>
+                <li>Service 4</li>
+              </ul>
+            </li>
+            <li><a href="">สินค้า</a></li>
+            <li><a href="">เกี่ยวกับเรา</a></li>
+            <li><a href="">ติดต่อ</a></li>
+            <li><a href="/login form/login.html">ลงชื่อเข้าใช้</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="slide">
+        <div class="item" style="background-image: url(/tokyo.jpg)">
+          <div class="content">
+            <div class="name">Tokyo</div>
+            <div class="des">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Recusandae tenetur repellat voluptate beatae nulla, totam sapiente
+              alias velit corrupti veritatis blanditiis dolorum reiciendis
+              maiores tempora?
+            </div>
+            <button class="btn-seeMore">See more</button>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(/fujii.png)">
+          <div class="content">
+            <div class="name">Mt.Fuji</div>
+            <div class="des">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Recusandae tenetur repellat voluptate beatae nulla, totam sapiente
+              alias velit corrupti veritatis blanditiis dolorum reiciendis
+              maiores tempora?
+            </div>
+            <button class="btn-seeMore">See more</button>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(/kyoto.jpeg)">
+          <div class="content">
+            <div class="name">Kyoto</div>
+            <div class="des">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Recusandae tenetur repellat voluptate beatae nulla, totam sapiente
+              alias velit corrupti veritatis blanditiis dolorum reiciendis
+              maiores tempora?
+            </div>
+            <button class="btn-seeMore">See more</button>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(/bamboo\ forest.jpg)">
+          <div class="content">
+            <div class="name">Bamboo Forest, Kyoto</div>
+            <div class="des">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Recusandae tenetur repellat voluptate beatae nulla, totam sapiente
+              alias velit corrupti veritatis blanditiis dolorum reiciendis
+              maiores tempora?
+            </div>
+            <button class="btn-seeMore">See more</button>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(/aomori.png)">
+          <div class="content">
+            <div class="name">Oirase Gorge, Aomori</div>
+            <div class="des">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Recusandae tenetur repellat voluptate beatae nulla, totam sapiente
+              alias velit corrupti veritatis blanditiis dolorum reiciendis
+              maiores tempora?
+            </div>
+            <button class="btn-seeMore">See more</button>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(/shrine.jpg)">
+          <div class="content">
+            <div class="name">Fushimi Inari Taisha</div>
+            <div class="des">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Recusandae tenetur repellat voluptate beatae nulla, totam sapiente
+              alias velit corrupti veritatis blanditiis dolorum reiciendis
+              maiores tempora?
+            </div>
+            <button class="btn-seeMore">See more</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="button">
+        <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+        <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="website.js"></script>
