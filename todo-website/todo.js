@@ -21,7 +21,7 @@ const addList = () => {
   let todoInput = document.querySelector(".input");
   let input = todoInput.value.trim();
   let dateTimeInput = document.querySelector(".input-datetime");
-  let dateTime = dateTimeInput.value; // เพิ่มการเก็บค่า input วันและเวลา
+  let dateTime = dateTimeInput.value; //เพิ่มการเก็บค่า input วันและเวลา
   if (input && dateTime) {
     list.push({ task: input, date: dateTime }); // Add input to list
     console.log(list);
